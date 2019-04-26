@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28490" started-at="2019-04-26T06:30:05Z" finished-at="2019-04-26T06:30:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28490" started-at="2019-04-26T06:30:05Z" finished-at="2019-04-26T06:30:34Z">
+      <class name="testscript.Simplesel">
+        <test-method status="PASS" signature="baseopp()[pri:0, instance:testscript.Simplesel@61832929]" name="baseopp" is-config="true" duration-ms="21517" started-at="2019-04-26T06:30:05Z" finished-at="2019-04-26T06:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseopp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testscript.Simplesel@61832929]" name="testcase1" duration-ms="1168" started-at="2019-04-26T06:30:27Z" finished-at="2019-04-26T06:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscript.Simplesel@61832929]" name="tearDown" is-config="true" duration-ms="5777" started-at="2019-04-26T06:30:28Z" finished-at="2019-04-26T06:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscript.Simplesel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
