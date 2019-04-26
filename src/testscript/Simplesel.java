@@ -21,9 +21,17 @@ public class Simplesel {
 		driver.get("https://www.seleniumhq.org/");
 	}
 	@Test
-	public void testcase1() {
+	public void testcase1() throws InterruptedException {
 		System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//li[@id='menu_download']")).click();
+		System.out.println(driver.getTitle());
+		driver.findElement(By.xpath("//a[.='Projects']")).click();
+		Thread.sleep(2000);
+		System.out.println(driver.getTitle());
+		driver.findElement(By.id("q")).sendKeys("chrome");
+		driver.findElement(By.id("submit"));
+		driver.findElement(By.xpath("//li[@id='menu_download']")).click();
+		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
 	}
 	@AfterMethod

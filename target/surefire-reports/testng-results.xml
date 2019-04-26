@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19963" started-at="2019-04-26T06:42:07Z" finished-at="2019-04-26T06:42:27Z">
+  <suite name="Suite" duration-ms="34444" started-at="2019-04-26T07:09:15Z" finished-at="2019-04-26T07:09:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19963" started-at="2019-04-26T06:42:07Z" finished-at="2019-04-26T06:42:27Z">
+    <test name="Test" duration-ms="34444" started-at="2019-04-26T07:09:15Z" finished-at="2019-04-26T07:09:50Z">
       <class name="testscript.Simplesel">
-        <test-method status="PASS" signature="baseopp()[pri:0, instance:testscript.Simplesel@17550481]" name="baseopp" is-config="true" duration-ms="16942" started-at="2019-04-26T06:42:07Z" finished-at="2019-04-26T06:42:24Z">
+        <test-method status="PASS" signature="baseopp()[pri:0, instance:testscript.Simplesel@735f7ae5]" name="baseopp" is-config="true" duration-ms="30783" started-at="2019-04-26T07:09:15Z" finished-at="2019-04-26T07:09:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseopp -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:testscript.Simplesel@17550481]" name="testcase1" duration-ms="891" started-at="2019-04-26T06:42:24Z" finished-at="2019-04-26T06:42:25Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testscript.Simplesel@735f7ae5]" name="testcase1" duration-ms="790" started-at="2019-04-26T07:09:46Z" finished-at="2019-04-26T07:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscript.Simplesel@17550481]" name="tearDown" is-config="true" duration-ms="2094" started-at="2019-04-26T06:42:25Z" finished-at="2019-04-26T06:42:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscript.Simplesel@735f7ae5]" name="tearDown" is-config="true" duration-ms="2841" started-at="2019-04-26T07:09:47Z" finished-at="2019-04-26T07:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
